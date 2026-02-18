@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "teleget9527"
-version = "0.2.0"
+version = "2.0.0"
 description = "TeleGet - High-speed Telegram file downloader SDK with multi-connection parallel downloading"
 readme = "README.md"
 license = {text = "AGPL-3.0-only"}
