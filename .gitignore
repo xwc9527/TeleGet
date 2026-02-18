@@ -1,0 +1,31 @@
+# credentials
+.env
+.env.local
+
+# session files
+*.session
+*.session-journal
+
+# test output
+test_output/
+
+# logs
+*.log
+logs/
+
+# data / accounts
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
