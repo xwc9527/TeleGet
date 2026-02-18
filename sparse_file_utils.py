@@ -9,7 +9,6 @@ import os
 import sys
 import ctypes
 import logging
-from ctypes import wintypes
 from typing import Optional
 
 logger = logging.getLogger(__name__)
@@ -100,6 +99,7 @@ def _create_sparse_file_windows(file_path: str, size: int) -> bool:
     使用 DeviceIoControl + FSCTL_SET_SPARSE 设置稀疏属性
     """
     try:
+        from ctypes import wintypes
         kernel32 = ctypes.windll.kernel32
 
         # 创建文件
